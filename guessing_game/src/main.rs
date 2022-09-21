@@ -1,3 +1,6 @@
+//written by Taittinger Gabelhart
+//written using chapter 2 of the rust programing language rust 2018 book
+
 use std::io;
 use rand::Rng;
 use std::cmp::Ordering;
@@ -18,7 +21,8 @@ fn main() {
             .expect("Failed to read line");
 
         //this uses rust shadowing to allow us to use the same variable name twice
-        let guess: u32 = guess.trim().parse(){
+        let guess: u32 = match guess.trim().parse(){
+            //added error handling in case someone passed in a non integer
             Ok(num) => num,
             Err(_) => continue,
         };
