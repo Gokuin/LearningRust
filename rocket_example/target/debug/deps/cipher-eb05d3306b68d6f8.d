@@ -1,0 +1,12 @@
+C:\Users\Admin\Documents\LearningRust\rocket_example\target\debug\deps\cipher-eb05d3306b68d6f8.rmeta: C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\lib.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\block.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\errors.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\stream.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\stream_core.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\stream_wrapper.rs
+
+C:\Users\Admin\Documents\LearningRust\rocket_example\target\debug\deps\libcipher-eb05d3306b68d6f8.rlib: C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\lib.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\block.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\errors.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\stream.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\stream_core.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\stream_wrapper.rs
+
+C:\Users\Admin\Documents\LearningRust\rocket_example\target\debug\deps\cipher-eb05d3306b68d6f8.d: C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\lib.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\block.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\errors.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\stream.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\stream_core.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\stream_wrapper.rs
+
+C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\lib.rs:
+C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\block.rs:
+C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\errors.rs:
+C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\stream.rs:
+C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\stream_core.rs:
+C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cipher-0.4.3\src\stream_wrapper.rs:

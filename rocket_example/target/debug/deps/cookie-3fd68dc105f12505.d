@@ -1,0 +1,12 @@
+C:\Users\Admin\Documents\LearningRust\rocket_example\target\debug\deps\cookie-3fd68dc105f12505.rmeta: C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\lib.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\builder.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\parse.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\jar.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\delta.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\draft.rs
+
+C:\Users\Admin\Documents\LearningRust\rocket_example\target\debug\deps\libcookie-3fd68dc105f12505.rlib: C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\lib.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\builder.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\parse.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\jar.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\delta.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\draft.rs
+
+C:\Users\Admin\Documents\LearningRust\rocket_example\target\debug\deps\cookie-3fd68dc105f12505.d: C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\lib.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\builder.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\parse.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\jar.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\delta.rs C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\draft.rs
+
+C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\lib.rs:
+C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\builder.rs:
+C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\parse.rs:
+C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\jar.rs:
+C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\delta.rs:
+C:\Users\Admin\.cargo\registry\src\github.com-1ecc6299db9ec823\cookie-0.11.5\src\draft.rs:
