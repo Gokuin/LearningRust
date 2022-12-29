@@ -1,201 +1,300 @@
 --SQL pre generated using ProductGenerator written in rust by Taittinger Gabelhart
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(1 , 9 , 20 , 3/17/2021 , 899.99);
+  VALUES(1 , 4 , 14 ,  ' 2019-7-9 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(2 , 5 , 14 , 5/6/2019 , 499.99);
+  VALUES(2 , 8 , 19 ,  ' 2020-3-2 '  , 0.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(3 , 2 , 14 , 3/28/2021 , 72.99);
+  VALUES(3 , 2 , 5 ,  ' 2020-11-23 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(4 , 4 , 1 , 10/20/2021 , 899.99);
+  VALUES(4 , 5 , 21 ,  ' 2019-10-28 '  , 499.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(5 , 8 , 15 , 10/20/2022 , 0.99);
+  VALUES(5 , 3 , 8 ,  ' 2019-9-16 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(6 , 7 , 15 , 3/8/2021 , 9.99);
+  VALUES(6 , 8 , 20 ,  ' 2019-7-14 '  , 0.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(7 , 9 , 19 , 7/22/2020 , 899.99);
+  VALUES(7 , 8 , 4 ,  ' 2022-3-24 '  , 0.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(8 , 6 , 9 , 4/8/2021 , 9.99);
+  VALUES(8 , 10 , 17 ,  ' 2019-7-10 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(9 , 9 , 9 , 4/24/2021 , 899.99);
+  VALUES(9 , 4 , 21 ,  ' 2022-7-8 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(10 , 2 , 15 , 5/8/2020 , 72.99);
+  VALUES(10 , 3 , 4 ,  ' 2019-7-3 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(11 , 2 , 22 , 9/23/2020 , 72.99);
+  VALUES(11 , 5 , 15 ,  ' 2022-11-7 '  , 499.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(12 , 2 , 22 , 8/4/2020 , 72.99);
+  VALUES(12 , 6 , 20 ,  ' 2021-1-7 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(13 , 3 , 20 , 11/18/2021 , 72.99);
+  VALUES(13 , 7 , 13 ,  ' 2019-9-9 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(14 , 6 , 6 , 1/6/2020 , 9.99);
+  VALUES(14 , 3 , 8 ,  ' 2019-4-5 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(15 , 5 , 21 , 11/18/2019 , 499.99);
+  VALUES(15 , 10 , 22 ,  ' 2019-6-11 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(16 , 9 , 15 , 2/5/2020 , 899.99);
+  VALUES(16 , 4 , 18 ,  ' 2022-8-10 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(17 , 2 , 13 , 8/22/2020 , 72.99);
+  VALUES(17 , 6 , 3 ,  ' 2022-2-4 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(18 , 9 , 4 , 7/14/2020 , 899.99);
+  VALUES(18 , 6 , 3 ,  ' 2022-5-18 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(19 , 8 , 14 , 2/22/2022 , 0.99);
+  VALUES(19 , 9 , 6 ,  ' 2021-3-17 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(20 , 7 , 13 , 1/16/2019 , 9.99);
+  VALUES(20 , 8 , 23 ,  ' 2022-1-17 '  , 0.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(21 , 8 , 21 , 9/13/2021 , 0.99);
+  VALUES(21 , 10 , 12 ,  ' 2019-4-1 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(22 , 8 , 16 , 4/7/2019 , 0.99);
+  VALUES(22 , 4 , 19 ,  ' 2020-2-27 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(23 , 5 , 5 , 10/16/2021 , 499.99);
+  VALUES(23 , 5 , 22 ,  ' 2020-6-23 '  , 499.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(24 , 3 , 8 , 10/14/2022 , 72.99);
+  VALUES(24 , 4 , 19 ,  ' 2021-7-9 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(25 , 5 , 14 , 5/28/2022 , 499.99);
+  VALUES(25 , 3 , 16 ,  ' 2021-4-17 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(26 , 4 , 12 , 11/9/2020 , 899.99);
+  VALUES(26 , 5 , 16 ,  ' 2020-4-5 '  , 499.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(27 , 6 , 11 , 4/20/2022 , 9.99);
+  VALUES(27 , 2 , 21 ,  ' 2020-9-5 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(28 , 7 , 8 , 1/17/2019 , 9.99);
+  VALUES(28 , 3 , 17 ,  ' 2020-3-6 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(29 , 2 , 5 , 6/6/2022 , 72.99);
+  VALUES(29 , 3 , 22 ,  ' 2022-9-25 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(30 , 2 , 3 , 6/15/2019 , 72.99);
+  VALUES(30 , 9 , 7 ,  ' 2021-4-23 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(31 , 6 , 2 , 3/16/2022 , 9.99);
+  VALUES(31 , 4 , 20 ,  ' 2020-8-5 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(32 , 5 , 3 , 6/4/2021 , 499.99);
+  VALUES(32 , 5 , 9 ,  ' 2020-2-9 '  , 499.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(33 , 2 , 22 , 4/18/2020 , 72.99);
+  VALUES(33 , 5 , 7 ,  ' 2019-5-25 '  , 499.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(34 , 7 , 3 , 10/15/2022 , 9.99);
+  VALUES(34 , 8 , 14 ,  ' 2020-6-22 '  , 0.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(35 , 9 , 5 , 8/11/2019 , 899.99);
+  VALUES(35 , 6 , 1 ,  ' 2022-6-4 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(36 , 5 , 14 , 7/6/2022 , 499.99);
+  VALUES(36 , 9 , 18 ,  ' 2019-7-11 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(37 , 4 , 20 , 9/11/2019 , 899.99);
+  VALUES(37 , 2 , 8 ,  ' 2022-9-9 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(38 , 10 , 12 , 5/4/2019 , 72.99);
+  VALUES(38 , 8 , 21 ,  ' 2020-4-26 '  , 0.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(39 , 8 , 4 , 3/29/2020 , 0.99);
+  VALUES(39 , 6 , 16 ,  ' 2021-11-13 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(40 , 7 , 17 , 10/12/2022 , 9.99);
+  VALUES(40 , 2 , 10 ,  ' 2020-7-28 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(41 , 8 , 12 , 9/8/2020 , 0.99);
+  VALUES(41 , 8 , 9 ,  ' 2021-10-27 '  , 0.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(42 , 4 , 15 , 10/2/2022 , 899.99);
+  VALUES(42 , 4 , 9 ,  ' 2019-3-5 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(43 , 3 , 16 , 7/6/2021 , 72.99);
+  VALUES(43 , 8 , 1 ,  ' 2020-4-9 '  , 0.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(44 , 8 , 4 , 11/28/2020 , 0.99);
+  VALUES(44 , 6 , 4 ,  ' 2021-7-22 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(45 , 5 , 1 , 2/27/2020 , 499.99);
+  VALUES(45 , 3 , 15 ,  ' 2020-10-17 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(46 , 10 , 20 , 10/17/2020 , 72.99);
+  VALUES(46 , 8 , 12 ,  ' 2022-4-9 '  , 0.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(47 , 10 , 19 , 8/28/2020 , 72.99);
+  VALUES(47 , 3 , 7 ,  ' 2019-9-3 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(48 , 6 , 21 , 2/4/2021 , 9.99);
+  VALUES(48 , 3 , 11 ,  ' 2021-3-5 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(49 , 3 , 10 , 1/29/2021 , 72.99);
+  VALUES(49 , 3 , 2 ,  ' 2021-2-3 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(50 , 4 , 9 , 1/3/2021 , 899.99);
+  VALUES(50 , 6 , 12 ,  ' 2019-4-24 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(51 , 4 , 2 , 5/28/2022 , 899.99);
+  VALUES(51 , 9 , 18 ,  ' 2020-4-1 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(52 , 3 , 20 , 1/18/2022 , 72.99);
+  VALUES(52 , 8 , 1 ,  ' 2022-4-6 '  , 0.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(53 , 6 , 9 , 8/21/2022 , 9.99);
+  VALUES(53 , 7 , 9 ,  ' 2019-6-19 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(54 , 10 , 21 , 5/16/2021 , 72.99);
+  VALUES(54 , 2 , 7 ,  ' 2021-1-3 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(55 , 8 , 17 , 9/6/2020 , 0.99);
+  VALUES(55 , 6 , 22 ,  ' 2019-11-20 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(56 , 9 , 21 , 9/20/2020 , 899.99);
+  VALUES(56 , 9 , 4 ,  ' 2022-10-12 '  , 899.99);
+  
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(57 , 7 , 14 , 3/14/2019 , 9.99);
+  VALUES(57 , 2 , 21 ,  ' 2020-7-15 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(58 , 6 , 2 , 8/15/2022 , 9.99);
+  VALUES(58 , 5 , 14 ,  ' 2020-9-25 '  , 499.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(59 , 9 , 15 , 7/28/2020 , 899.99);
+  VALUES(59 , 5 , 21 ,  ' 2019-7-20 '  , 499.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(60 , 4 , 22 , 6/23/2021 , 899.99);
+  VALUES(60 , 5 , 22 ,  ' 2020-11-3 '  , 499.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(61 , 4 , 19 , 3/15/2020 , 899.99);
+  VALUES(61 , 5 , 18 ,  ' 2019-9-28 '  , 499.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(62 , 6 , 4 , 4/10/2019 , 9.99);
+  VALUES(62 , 5 , 5 ,  ' 2020-11-13 '  , 499.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(63 , 4 , 20 , 11/9/2019 , 899.99);
+  VALUES(63 , 7 , 19 ,  ' 2021-2-2 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(64 , 3 , 21 , 3/3/2020 , 72.99);
+  VALUES(64 , 2 , 16 ,  ' 2019-2-2 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(65 , 5 , 17 , 7/16/2019 , 499.99);
+  VALUES(65 , 5 , 1 ,  ' 2019-4-11 '  , 499.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(66 , 5 , 19 , 1/14/2022 , 499.99);
+  VALUES(66 , 2 , 19 ,  ' 2021-4-18 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(67 , 5 , 18 , 4/24/2019 , 499.99);
+  VALUES(67 , 10 , 1 ,  ' 2020-11-27 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(68 , 2 , 6 , 1/18/2021 , 72.99);
+  VALUES(68 , 3 , 21 ,  ' 2020-2-9 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(69 , 10 , 14 , 11/26/2019 , 72.99);
+  VALUES(69 , 9 , 13 ,  ' 2019-4-21 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(70 , 6 , 6 , 8/6/2019 , 9.99);
+  VALUES(70 , 5 , 11 ,  ' 2019-2-6 '  , 499.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(71 , 2 , 8 , 5/7/2020 , 72.99);
+  VALUES(71 , 9 , 3 ,  ' 2022-10-28 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(72 , 2 , 9 , 1/10/2022 , 72.99);
+  VALUES(72 , 3 , 16 ,  ' 2022-6-22 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(73 , 2 , 13 , 9/16/2019 , 72.99);
+  VALUES(73 , 10 , 13 ,  ' 2021-5-20 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(74 , 3 , 21 , 4/13/2022 , 72.99);
+  VALUES(74 , 7 , 21 ,  ' 2021-9-5 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(75 , 9 , 3 , 4/20/2022 , 899.99);
+  VALUES(75 , 5 , 13 ,  ' 2021-2-24 '  , 499.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(76 , 6 , 14 , 7/23/2021 , 9.99);
+  VALUES(76 , 3 , 22 ,  ' 2019-8-20 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(77 , 4 , 1 , 6/18/2021 , 899.99);
+  VALUES(77 , 6 , 12 ,  ' 2021-11-2 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(78 , 4 , 8 , 10/10/2021 , 899.99);
+  VALUES(78 , 3 , 20 ,  ' 2020-7-9 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(79 , 7 , 14 , 7/1/2020 , 9.99);
+  VALUES(79 , 8 , 2 ,  ' 2019-10-9 '  , 0.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(80 , 4 , 22 , 6/21/2019 , 899.99);
+  VALUES(80 , 4 , 14 ,  ' 2020-9-6 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(81 , 6 , 23 , 8/12/2022 , 9.99);
+  VALUES(81 , 4 , 10 ,  ' 2019-9-24 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(82 , 8 , 13 , 8/4/2021 , 0.99);
+  VALUES(82 , 10 , 9 ,  ' 2022-6-9 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(83 , 4 , 7 , 5/21/2022 , 899.99);
+  VALUES(83 , 9 , 2 ,  ' 2019-10-6 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(84 , 2 , 15 , 5/8/2021 , 72.99);
+  VALUES(84 , 5 , 15 ,  ' 2020-11-23 '  , 499.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(85 , 10 , 15 , 5/27/2021 , 72.99);
+  VALUES(85 , 2 , 1 ,  ' 2022-11-21 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(86 , 6 , 23 , 9/4/2019 , 9.99);
+  VALUES(86 , 3 , 6 ,  ' 2020-1-1 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(87 , 10 , 18 , 5/15/2019 , 72.99);
+  VALUES(87 , 10 , 15 ,  ' 2020-5-1 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(88 , 4 , 13 , 4/7/2022 , 899.99);
+  VALUES(88 , 4 , 22 ,  ' 2022-7-3 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(89 , 6 , 4 , 8/24/2019 , 9.99);
+  VALUES(89 , 6 , 4 ,  ' 2022-8-15 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(90 , 7 , 7 , 5/8/2021 , 9.99);
+  VALUES(90 , 10 , 12 ,  ' 2021-10-5 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(91 , 8 , 6 , 9/23/2020 , 0.99);
+  VALUES(91 , 6 , 1 ,  ' 2019-5-9 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(92 , 8 , 12 , 3/2/2020 , 0.99);
+  VALUES(92 , 9 , 4 ,  ' 2019-7-7 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(93 , 4 , 2 , 4/29/2022 , 899.99);
+  VALUES(93 , 4 , 15 ,  ' 2020-3-15 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(94 , 2 , 5 , 1/2/2019 , 72.99);
+  VALUES(94 , 9 , 5 ,  ' 2019-3-18 '  , 899.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(95 , 5 , 8 , 2/14/2021 , 499.99);
+  VALUES(95 , 3 , 13 ,  ' 2021-1-5 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(96 , 10 , 22 , 5/26/2022 , 72.99);
+  VALUES(96 , 6 , 7 ,  ' 2020-5-9 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(97 , 5 , 22 , 2/12/2022 , 499.99);
+  VALUES(97 , 2 , 16 ,  ' 2022-11-5 '  , 72.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(98 , 9 , 16 , 5/28/2022 , 899.99);
+  VALUES(98 , 6 , 8 ,  ' 2022-2-7 '  , 9.99);
+
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(99 , 8 , 18 , 1/14/2021 , 0.99);
+  VALUES(99 , 2 , 10 ,  ' 2019-7-4 '  , 72.99);
+  
 INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)
-  VALUES(100 , 6 , 22 , 2/1/2021 , 9.99);
+  VALUES(100 , 10 , 15 ,  ' 2020-8-19 '  , 72.99);

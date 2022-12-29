@@ -59,12 +59,12 @@ fn gen_order()-> (String, String, String){
  //note: the days are only between 1-30
  fn gen_date() -> String{
     let mut rng = rand::thread_rng();
-    let slash = "/";
+    let slash = "-";
     let month = rng.gen_range(1..12);
     let day = rng.gen_range(1..30);
     let year = rng.gen_range(2019..2023);
-    let order_date = format!("{}{}{}{}{}", month, slash, day, slash, year).to_string();
-
+    let order_date = format!("{}{}{}{}{}", year, slash, month, slash, day).to_string();
+    //the date format for postgres sql is yyyy-mm-dd
     return order_date;
  }
 fn main(){
@@ -78,9 +78,10 @@ fn main(){
         let str_val = "  VALUES(";
         let id: String = (x+1).to_string();
         let comma    = " , ";
+        let a = " ' ";
 
         let line1 = "INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)\n";
-        let line2 = str_val.to_owned() + &id + comma + &new_prod.0 + comma + &new_prod.1 + comma + &gen_date() + comma +  &new_prod.2 + ");\n";
+        let line2 = str_val.to_owned() + &id + comma + &new_prod.0 + comma + &new_prod.1 + comma + a + &gen_date() + a + comma +  &new_prod.2 + ");\n";
 
         //now we write the query to the file
         file.write_all(line1.as_bytes()).expect("failed to write line 1.");
