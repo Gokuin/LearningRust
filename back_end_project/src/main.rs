@@ -55,6 +55,8 @@ fn gen_order()-> (String, String, String){
     return (product_ids[products_id].to_string(), cust_id.to_string(), order_total.to_string());
  }
 
+ //generates a random date
+ //note: the days are only between 1-30
  fn gen_date() -> String{
     let mut rng = rand::thread_rng();
     let slash = "/";
