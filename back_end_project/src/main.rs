@@ -82,10 +82,12 @@ fn main(){
 
         let line1 = "INSERT INTO public.orders(orderid, prodid, custid, order_date, order_total)\n";
         let line2 = str_val.to_owned() + &id + comma + &new_prod.0 + comma + &new_prod.1 + comma + a + &gen_date() + a + comma +  &new_prod.2 + ");\n";
+        let new_line = '\n';
 
         //now we write the query to the file
         file.write_all(line1.as_bytes()).expect("failed to write line 1.");
         file.write_all(line2.as_bytes()).expect("failed to write line 2.");
+        file.write_all(new_line.to_string().as_bytes()).expect("failed to write line 2.");
     }
     println!("-----End of Generation-----");
 }
