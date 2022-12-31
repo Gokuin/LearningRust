@@ -13,10 +13,14 @@ pub fn get_current_inventory_count() -> Count {
     current_count
 }
 
+//function attempts to connect to the database that hosts our test data it then returns the result
 pub fn attempt_connection() -> Res {
-    let client = Client::connect("postgresql://postgres:postgres@localhost/postgres", NoTls);
     //currently panicing when attempting connection
     let r = true;
+
+    let client = Client::connect("postgresql://postgres:postgres@localhost/postgres", NoTls)
+        .expect("The connection to the database failed... it shouldnt");
+    
 
     let connect_res = Res {
         r
