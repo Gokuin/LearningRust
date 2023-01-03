@@ -18,9 +18,9 @@ pub fn attempt_connection() -> Res {
     //currently panicing when attempting connection
     let r = true;
 
-    let client = Client::connect("postgresql://postgres:postgres@localhost/postgres", NoTls)
-        .expect("The connection to the database failed... it shouldnt");
-    
+    let mut client = Client::connect("postgresql://postgres:postgres@localhost/postgres", NoTls)
+        .expect("Could not connect to the local test database...");
+    //if the expect doesnt fire that means we were able to connect
 
     let connect_res = Res {
         r
